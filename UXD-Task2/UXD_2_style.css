@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@media screen {
+body {
+	font: 1em 'Segoe UI', sans-serif;
+	
+	background: white;
+}	#header {}
+	.header {}
+		
+		#header1 {  height: 37px; background-color: #F6F6F6; padding-left: 10%; padding-right: 10%; margin-top: 0;}
+			#sign { color: black; position: absolute; right: 2%; top: 1%}
+				#signup, #signin {color: black; text-decoration: none;}
+				#signup {padding-right: 10%;} 
+			#stars { float: left;}
+
+
+		#header2 { height: 150px; padding-left: 10%; position: relative; }
+			#logo { position: absolute; left: 10%; top: 15%;}
+			#info {  width: 20%; position: absolute; left: 29%; top: 40%;}
+				#call, #tel, #time {margin-top: 0px; }
+				#tel {color: red;}
+				#time {font-size: 0.7em}
+			.cartsearch { position: absolute; right: 10%; height: 150px; padding-top: 37px;}
+				#cart {margin-top: 5%; background-color: black; color: white;}
+				#search {margin-top: 25px; background: url("lupa.png") no-repeat; background-size: contain; background-position: right;
+				 }
+
+		
+		#header3 {  height: 60px; background-color: #333333; margin-bottom: 70px; padding-left: 10%; padding-top: 2%;
+				 position: relative; }
+			#header3 ul li { float: left; position: relative;}
+			#header3 ul li a { color: #fff;  padding-right: 9%; margin-top: 20%; text-decoration: none; }
+			#header3 ul li a:hover { color: green; text-decoration: underline; background: #C85B43;}
+			.dropdown {position: absolute; top: 100%; background: #575757; display: none;}
+			.dropdown li { width: 90px }
+			#header3 li:hover .dropdown { display: block;}
+
+	#main {width: 100%; }	
+		#Banner {  width: 80%; height: 370px; background-image: url("Banner.png");
+				 background-size: contain; background-repeat: no-repeat; margin-left: 10%; margin-right: 10%}
+			#BannerText {color: white; font-weight: 400; text-align: right; font-size: 2.3em;
+						 padding-top: 10%; padding-right: 56%; letter-spacing: 1px;}
+				.BannerSpan {font-weight: 100;}
+			#button { width: 220px; height: 25px; margin-left: 15%; margin-top: 4%; background: rgba(0, 0, 0, 0); color: white; font-size: 1em;
+			 	font-weight: 100; letter-spacing: 2px; border: 1px solid white; cursor: pointer;}
+			.rad { width: 20px; background: rgba(0, 0, 0, 0); border: 1px solid green; margin: auto; margin-left: 3px; border: 1px solid white;}
+			#radio {width: 100px; height: 30px; background: rgba(0, 0, 0, 0);  margin-left: 45.5%; margin-top: 6.1%; }
+
+
+		.featurCollection {font-size: 1.5em; font-weight: 500; padding-left: 10%; padding-top: 40px; padding-bottom: 30px;}
+		.fcollect {display: flex; margin-left: 10%; width: 80%; justify-content: space-between; flex-wrap: wrap;}
+			.fc{width: 230px; height: 310px; border: 1px solid black; margin-bottom: 25px;}
+				.fc img {margin: 11px;margin-bottom: 0; width: 90%; height: 50%}
+			.nameFlower {font-size: .9em; font-weight: 500; overflow: hidden; width: 90%; margin: 11px; margin-top: 0; height: 12%}
+			.price, .oldprice {margin: 11px; margin-top: 0; height: 15%}
+				.price {font-size: 1.4em; font-weight: 500; color: red; margin-right: 0}
+				.oldPrice {text-decoration: line-through; margin-left: 0}
+			.twoButtons {margin: 11px;margin-bottom: 0; margin-top: 35px width: 90%; height: 14%;}
+				.butL, .butR {background: rgba(0, 0, 0, 0); border: 1.3px solid black; width: 30%;  font-size: 1.1em; font-weight: 600;
+						 cursor: pointer; margin-top: 15px;}
+				.butL {margin-right: 10%; width: 57%; }
+
+	#columnOverHead {padding-left: 10%; padding-right: 10%;  margin-top: 60px;  position: relative;}
+		.sprite1, .sprite2, .sprite3 { width: 33%; position: absolute; display: block; bottom: 40px;}
+		.sprite2 {left: 37% }
+		.sprite3 {left: 64%}
+			.columnIMG { position: absolute; display: inline-block; width: 32px; height: 32px; background-image: url("Sprite.png");
+			 background-repeat: no-repeat; cursor: pointer;}
+			.columnHead { position: absolute; width: 200px; font-size: 1.1em; font-weight: 500;  margin-left: 40px; margin-top: 5px;}
+			.sprite1 .columnIMG  {background-position: 0 0;}
+				.sprite1 .columnIMG:hover {background-position: 0 -33px;}
+			.sprite2 .columnIMG  {background-position: -30.45px 0;}
+				.sprite2 .columnIMG:hover {background-position: -30.45px -33px;}
+			.sprite3 .columnIMG  {background-position: -61px 0;}
+				.sprite3 .columnIMG:hover {background-position: -61px -33px;}
+	
+	#columnOver {font-size: .7em; columns: 3; padding-left: 10%; padding-right: 10%;}
+		
+
+	#footer { width: 100%; padding-left: 10%;  color: white; height: 60px; background-color: #444444; position: relative; margin-top: 60px;}
+			#f_text {position: absolute;  letter-spacing: .1em; margin-top: 18px;}
+			#f_form {position: absolute;  margin-left: 350px; margin-top: 18px; width: 65%; display: flex; justify-content: flex-start;}
+				#f_mail {background-color: white; font-size: .7em; margin: 0; width: 180px; height: 20px;}
+				#f_label {background-color: #F19200;  text-decoration: none; color: #FFFFFF; width: 100px; 
+						 text-align: center;}
+				#f_label label {cursor: pointer;}
+				
+				#soc_media {position: absolute; margin-left: 700px; margin-top: 18px;}
+					.soc_img {color: green; margin-right: 20px; zoom: .4; }
+					.soc_img img:hover { -webkit-filter: brightness(3);}
+				/*#soc1 { background-image: url("google.png"); color: blue; width: 30px}*/
+
+
+
+	#columnDown {font-size: .85em; display: -webkit-flex; margin-left: 10%; margin-right: 10%; margin-top: 40px; justify-content: space-between;}
+		#columnDown>div {width: 22%; text-decoration: none; line-height: 1.5em; flex-wrap: wrap; align-content: space-around;}
+		#columnDown p {font-size: 1.2em; font-weight: 500 }	
+		#columnDown a {color: black; text-decoration: none;}
+		#foot_images {width: 100%; display: flex; flex-flow: row wrap; align-items: flex-end; margin-bottom: 15px}
+			#foot_img1 {background-image: url("label.footer.png");background-repeat: no-repeat; height: 60px; width: 127px;	background-size: contain;}
+			#foot_img2 {background-image: url("label.footer2.png");background-repeat: no-repeat; height: 20px; width: 66px; background-size: contain;
+				 margin-left: 10px;}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+	a:link {
+    color: #0000d0; /* Цвет ссылок */
+   }
+   a:visited {
+    color: #900060; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #f00; /* Цвет активной ссылки */ 
+   } 
