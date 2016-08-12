@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>carousel</title>
+    <link rel="stylesheet" href="1_style.css" type="text/css">
+</head>
+<body>
+    <h1>Carousel</h1>
+    <div id="carousel">
+        <ul id="pictures">
+            <li><img src="BS1.png"></li>
+            <li><img src="BS2.png"></li>
+            <li><img src="BS3.png"></li>
+            <li><img src="BS4.png"></li>
+            <li><img src="FC1.png"></li>
+            <li><img src="FC2.png"></li>
+            <li><img src="FC3.png"></li>
+            <li><img src="FC4.png"></li>
+        </ul>
+        <div id="carouselLeft"></div>
+        <div id="carouselRight"></div>
+    </div>
+      <script>
+       var toLeft = document.getElementById("carouselLeft");
+         var toRight = document.getElementById("carouselRight");
+         var pictures = document.getElementById("pictures");
+         var images = document.getElementsByTagName("li");
+         var max = 0;
+         for(var i = 0; i < images.length; i++){max += 240;}
+         var counter = 0;
+         toLeft.addEventListener("click", function () {
+             if (counter > -max/2 ) {
+                 counter -= 240;
+                 pictures.style.marginLeft = (counter + "px");
+             }
+         }, false);
+         toRight.addEventListener("click", function () {
+             if (counter < 0 ) {
+                 counter += 240;
+                 pictures.style.marginLeft = (counter + "px");
+             }
+          }, false);
+     </script>
+     <script type="text/javascript" src="1_support.js"></script>
+ </body>
+ </html>

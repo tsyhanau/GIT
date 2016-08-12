@@ -1,0 +1,11 @@
+body {position: relative; background-color: #E6EFF2; margin: 5%}
+
+#inputFields {position: absolute;  width: 30%; font-size: 2em; }
+#inp {font-size: 1em;}
+#buttons {position: absolute; left: 40%; width: 45%; margin-top: 40px}
+#buttons button {width: 100px; margin-left: 20px; height: 50px; font-weight: 600; font-size: 1.3em; border-radius: 10px; cursor: pointer;}
+#add {background-color: green; }
+#show {background-color: blue; }
+#hide {background-color: grey; }
+#delete {background-color: red; }
+li {font-size: 1.5em;}
