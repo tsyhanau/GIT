@@ -1,0 +1,8 @@
+body {font-size: 2em;}
+#myNumber, #inp  {
+    font-size: 1.5em;
+    }
+button {
+    background-color: darkgray; font-size: 1.5em; cursor: pointer;
+}
+#enterName, #enterNumber
