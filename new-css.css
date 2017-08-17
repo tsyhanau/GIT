@@ -1,0 +1,207 @@
+@media screen {
+body {
+	font: 12px Helvetica, sans-serif;
+	color: #91989F;
+	background: #E3F1F9;
+}
+
+	#block0 {
+		background: #E3F1F9;
+		color: #364654;
+	}
+		#block12{
+		 	position: absolute;
+				
+			left: 0%;
+			
+			width: 100%;
+			bottom: 77%;
+			height: 23%;	
+		}
+			#header1, #header2, #header3 {
+				margin-left: 10%;
+				line-height: 5px;
+			}
+			#header1 {
+				padding-top: 5px;
+				font-size: 30px;
+			}
+			#header2 {
+				color: #7B8A95;
+				font-size: 15px;
+			}
+			#header3 {
+				
+				padding-bottom: 15px;
+				font-size: 23px;
+			}
+			#header4 {
+				margin-left: 13%;
+			}
+
+			#block1 {	
+			color: white;
+			
+			background: #111A29;
+				position: absolute;
+				
+				left: 0%;
+				
+				width: 100%;
+				bottom: 25%;
+				height: 75%;
+
+			}
+			#im {
+				
+			
+				margin-right: 10%; 
+				position: absolute;
+				
+				
+				left: 60%;
+				bottom: 0%;
+				width: 30%;
+				height: 100%;
+
+
+			}
+			#block2 {
+				
+				background: #BFD4DE;
+				position: absolute;
+				left: 0%;
+				width: 100%;
+				bottom: 0%;
+				height: 25%;
+			}
+		#blockF {
+			background-color: white;
+				position: absolute;
+				left: 10%;
+				width: 80%;
+				bottom: 10%;
+				height: 67%;
+		}
+			#block3 {
+
+				font-size: 16px;	
+				position: absolute;	
+				left: 3.7%;
+				width: 100%;
+				bottom: 90%;
+				height: 10%;
+			}
+			#block4 {	
+				text-align: right;
+				
+			  font-weight: bold;
+			  
+			  position: absolute;
+				
+				left: 0%;
+				
+				width: 45%;
+				bottom: 10%;
+				height: 80%;
+				
+			}
+
+			#block5 {	
+				
+				 text-align: right;
+				
+
+			  font-weight: bold;
+			   
+			   position: absolute;
+				
+				left: 45%;
+				
+				width: 55%;
+				bottom: 10%;
+				height: 80%;
+			}
+
+			.inp {
+				
+				width: 300px;
+				height: 30px;
+				margin-right: 0px;
+				margin-left: 15px;
+			}
+			.inp2 {
+				
+				width: 300px;
+				height: 30px;
+				margin-right: 90px;
+				margin-left: 15px;
+			}
+
+			.row {
+				
+				
+				height: 50px;
+				margin-top: 15px;
+				
+				font-size: 15px;
+			}
+			#cntr, #st {
+				width: 305px;
+				height: 37px;
+			}
+			#sub {
+				
+				
+				position: absolute;
+				
+				left: 0%;
+				
+				width: 100%;
+				bottom: 0%;
+				height: 10%;
+			}
+
+
+			#submit{
+				margin-left: 3%;
+			  	color: white;
+			  	background: #364654; 
+			  	border-radius:5px;
+			  	width: 120px;
+			  	height: 32px;
+		  
+			}
+		footer {
+			color: #E5E5E5;
+			position: absolute;
+			bottom: 0%;
+			left: 0%;
+			width: 100%;
+			height: 5%;
+			background: #364654;	
+		}
+			#footLeft{
+			position: absolute;
+			bottom: 0%;
+			left: 0%;
+			width: 50%;
+			margin-left: 10%;
+			margin-bottom: 1%;
+			}
+			#footRight{
+			
+			position: absolute;
+			bottom: 0%;
+			left: 50%;
+			width: 50%;	
+			margin-left: 31%;
+			margin-bottom: 1%;
+			}
+				#footRightTab{
+				padding:0px 10px
+				}
+				#a1, #a2 {
+					color: #E5E5E5;
+				}
+}
